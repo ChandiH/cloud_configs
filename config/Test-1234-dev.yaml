@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test-1234
+  description: sampel
+  labels: {}
+  annotations:
+    backstage.io/source-location: url:https://bitbucket.org/repo
+    gitlab.com/project-slug: platformnex
+    gitlab.com/instance: http://35.202.96.217
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:DEFAULT
