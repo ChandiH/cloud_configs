@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sdsdfsdfsd
+  description: dfsd
+  labels: {}
+  annotations:
+    backstage.io/source-location: url:https://bitbucket.org/repo
+spec:
+  type: service
+  lifecycle: production
+  owner: group:DEFAULT
